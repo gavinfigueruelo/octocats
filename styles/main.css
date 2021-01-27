@@ -11,6 +11,7 @@
 
 /* <img src="example.png" style="width:2em; height:3em;" /> */
 .octocat {
+  box-sizing: border-box;
   display: inline-block;
   width: auto;
 }
@@ -18,31 +19,29 @@
 .octocat img {
   max-width: 450px;
   height: auto;
-  border: 1px solid #808080
+  border: 1px solid #C3C3C3;
 }
+
 
 .authors img {
   height: 2em;
-  width: 3em;
-  /* position: right:0; */
+  width: 2em;
 }
 
 .authors {
-  font-weight: 900;
+  font-weight: 800;
 }
 
 ul.authors {
+
   list-style-type: none;
 }
 
 .image-number {
+  color: #C3C3C3;
   font-weight: bold;
-  /* position:left:0; */
 }
 
-/* .image-number:before {
-  content "#";
-} */
 .image-number::before  {
   content: "#";
 }
@@ -57,7 +56,7 @@ ul.authors {
 }
 
 .image-footer {
-  border-bottom: 1px solid #808080
+  border-bottom: 1px solid #C3C3C3
 }
 /* }
 .octodex {
